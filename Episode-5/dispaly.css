@@ -1,0 +1,30 @@
+.a {
+  display: inline;
+  /*default for span */
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid red;
+  background-color: aqua;
+}
+.b {
+  display: inline-block;
+  /*default for span */
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid red;
+  background-color: aqua;
+}
+.c {
+  display: block;
+  /*default for span */
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid red;
+  background-color: aqua;
+}

@@ -1,0 +1,13 @@
+html {
+  font-size: 20px;
+}
+.one {
+  color: cyan;
+  height: 100px;
+  width: 80vw;
+  background-color: coral;
+}
+.two {
+  background-color: brown;
+  width: 85%;
+}

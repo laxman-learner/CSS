@@ -1,0 +1,28 @@
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+}
+/* first-line */
+.line::first-line {
+  color: coral;
+  font-size: 40px;
+  background-color: cornflowerblue;
+  letter-spacing: 5px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  word-spacing: 5px;
+}
+/* first-letter */
+.letter::first-letter {
+  font-size: 50px;
+}
+/* for list */
+::marker {
+  color: cyan;
+  font-size: 20px;
+}
+/* for selection */
+.selection::selection {
+  background-color: crimson;
+  color: white;
+}

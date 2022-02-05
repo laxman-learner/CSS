@@ -1,0 +1,24 @@
+.container {
+  padding: 50px;
+  background-color: indigo;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.item {
+  width: 25%;
+}
+.item-one {
+  background-color: darkcyan;
+}
+.item-two {
+  background-color: darkorchid;
+}
+.item-three {
+  background-color: gold;
+}
+.item-four {
+  background-color: crimson;
+}

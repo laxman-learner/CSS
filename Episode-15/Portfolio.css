@@ -1,0 +1,15 @@
+.container {
+  max-width: 900px;
+  margin: 0px auto;
+  background-color: chartreuse;
+}
+.my-img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  float: left;
+  margin: 20px;
+}
+.para-two {
+  clear: left;
+}

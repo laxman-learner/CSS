@@ -1,0 +1,41 @@
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+table {
+  width: 60%;
+  border-collapse: collapse;
+  border-bottom: 5px solid #54bab9;
+}
+/* Table row */
+tr:nth-child(odd) {
+  background-color: #ffadf0;
+  color: #7a0bc0;
+}
+tr:nth-child(even) {
+  background-color: #fbcaff;
+  color: #54bab9;
+}
+
+th {
+  background-color: #e900ff;
+  text-align: center;
+  color: white;
+  /* This property is default for table heading elements
+  .. We can also set the text-align:left and right also  */
+  height: 50px;
+  vertical-align: middle;
+  /* vertical-align:middle is the default property 
+  for table heading.. it can be set to top and bottom also
+  Note:if we give the padding top and bottom in the table heading then we can not 
+  use the vertical-align property */
+}
+td {
+  text-align: center;
+  height: 30px;
+  vertical-align: middle;
+  /*   This property is default for table 
+  data. it can be set to top and bottom
+  also  */
+}

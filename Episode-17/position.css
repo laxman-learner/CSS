@@ -1,0 +1,19 @@
+.container {
+  padding: 100px;
+  background-color: gold;
+}
+.box {
+  height: 100px;
+}
+.box-one {
+  background-color: aqua;
+}
+.box-two {
+  position: relative;
+  top: 250px;
+  left: 150px;
+  background-color: crimson;
+}
+.box-three {
+  background-color: blueviolet;
+}

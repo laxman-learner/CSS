@@ -1,0 +1,26 @@
+.container {
+  padding: 50px;
+  background-color: gold;
+}
+.box {
+  height: 50px;
+}
+.box-one {
+  background-color: aqua;
+}
+.box-two {
+  top: 100px;
+  right: 25px;
+  position: fixed;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: crimson;
+}
+.box-three {
+  background-color: blueviolet;
+}
+.box-four {
+  background-color: blue;
+}

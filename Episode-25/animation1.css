@@ -1,0 +1,59 @@
+body {
+  height: 100vh;
+}
+.container {
+  background-color: aqua;
+  border: 2px solid black;
+}
+.box {
+  padding: 30px;
+  margin: 40px;
+  height: 100px;
+  width: 300px;
+  background-color: crimson;
+  border: 2px dashed black;
+  animation
+  animation-name: animation-1;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  /* Shorthand property for animation:
+  animation: animation-name animation-duration animation-timing-function animation-delay
+   animation-iteration-count animation-fill-mode;
+   For e.g. animation: animation-name 6s ease-in 2s 5 backwards;
+   */
+}
+@keyframes animation-1 {
+  0% {
+    width: 50px;
+    background-color: crimson;
+    font-size: 15px;
+    color: black;
+  }
+  25% {
+    width: 300px;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+  }
+  50% {
+    width: 900px;
+    background-color: blueviolet;
+    font-size: 60px;
+    color: darkcyan;
+  }
+  75% {
+    width: 600px;
+    background-color: darksalmon;
+    font-size: 50px;
+    color: white;
+  }
+  100% {
+    width: 1200px;
+    background-color: blue;
+    font-size: 40pxpx;
+    color: palevioletred;
+  }
+}

@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+}
+.container {
+  background-color: aqua;
+  border: 2px solid black;
+}
+.box {
+  padding: 30px;
+  margin: 40px;
+  height: 100px;
+  width: 300px;
+  background-color: crimson;
+  border: 2px dashed black;
+  animation-name: animation-1;
+  animation-duration: 6s;
+  animation-iteration-count: 3;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+  animation-direction: alternate;
+}
+@keyframes animation-1 {
+  from {
+    width: 50px;
+    background-color: crimson;
+    font-size: 15px;
+    color: black;
+  }
+  to {
+    width: 1100px;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+  }
+}

@@ -1,0 +1,16 @@
+.container {
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  flex-basis: 33.33%;
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 20px;
+}
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
